@@ -125,7 +125,7 @@ const displayMovements = function (acc, sort = false) {
       </div>
     `;
 
-    containerMovements.insertAdjacentHTML('afterbegin', html);
+    containerMovements.insertAdjacentHTML('afterbegin', html); //ข้อมูลเพิ่มเติม mdn insertAdjacentHTML
   });
 };
 
