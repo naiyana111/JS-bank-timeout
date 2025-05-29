@@ -125,7 +125,7 @@ const displayMovements = function (acc, sort = false) {
       </div>
     `;
 
-    containerMovements.insertAdjacentHTML('afterbegin', html); //ข้อมูลเพิ่มเติม mdn insertAdjacentHTML
+    containerMovements.insertAdjacentHTML('afterbegin', html); //เพิ่ม html เข้าไปในหน้าเว็บแบบ (ข้อมูลเพิ่มเติม mdn) 
   });
 };
 
